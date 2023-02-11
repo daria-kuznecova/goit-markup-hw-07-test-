@@ -1,0 +1,53 @@
+@media screen and (min-width: 480px) {
+  /*Хэдер*/
+
+  .container {
+    width: 396px;
+    margin: 0;
+  }
+
+  .navigation-list {
+    display: none;
+  }
+
+  .address-list {
+    display: none;
+  }
+
+  /*Секция Герой*/
+
+  .hero {
+    max-width: 428px;
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+
+  .hero-title {
+    max-width: 320px;
+    margin-bottom: 72px;
+
+    font-size: 36px;
+    line-height: 1.11;
+  }
+
+  /*Особенности*/
+  .section.features {
+    padding-top: 96px;
+  }
+
+  .features-item-icon {
+    display: none;
+  }
+
+  .features-item-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+  }
+
+  .features-item:not(:last-child) {
+    margin-bottom: 72px;
+  }
+
+  /*Наша команда*/
+}
