@@ -2,8 +2,7 @@
   /*Хэдер*/
 
   .container {
-    width: 396px;
-    margin: 0;
+    width: 426px;
   }
 
   .navigation-list {
@@ -18,8 +17,6 @@
 
   .hero {
     max-width: 428px;
-    padding-top: 112px;
-    padding-bottom: 112px;
   }
 
   .hero-title {
@@ -33,6 +30,7 @@
   /*Особенности*/
   .section.features {
     padding-top: 96px;
+    padding-bottom: 96px;
   }
 
   .features-item-icon {
@@ -49,5 +47,75 @@
     margin-bottom: 72px;
   }
 
+  /*Чем мы занимаемся*/
+
+  .work-title.is-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+
+  .work-list {
+    display: none;
+  }
+
   /*Наша команда*/
+
+  .section.team {
+    padding-top: 96px;
+    padding-bottom: 128px;
+    padding-left: 82px;
+    padding-right: 82px;
+  }
+
+  .container.customers {
+    width: 426px;
+  }
+
+  .team-list {
+  }
+
+  .team-item:not(:last-child) {
+    margin-bottom: 72px;
+  }
+
+  /* Customers*/
+
+  /* .container.customers {
+    width: 426px;
+  } */
+
+  .section.customers {
+    padding-top: 16px 96px;
+  }
+
+  .customers-logo-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    column-gap: 72px;
+  }
+
+  .customers-logo-item {
+    width: 190px;
+    height: 88px;
+    flex-basis: calc((100% - 16px) / 2);
+  }
+
+  .customers-logo-link {
+    padding: 16px 40px;
+  }
+
+  /*Подвал*/
+  .page-footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
 }
