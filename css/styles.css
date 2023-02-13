@@ -54,9 +54,9 @@ body {
   list-style: none;
 }
 
-/* .section {
+.section {
   padding-bottom: 120px;
-} */
+}
 .container {
   /* width: 1158px; */
   padding-left: 15px;
@@ -248,20 +248,20 @@ body {
   margin: -1px;
 }
 
-/* .features-list {
+.features-list {
   display: flex;
-} */
+}
 
-/* .features-item:not(:last-child) {
+.features-item:not(:last-child) {
   margin-right: 24px;
-} */
+}
 
-/* .features-item-icon {
+.features-item-icon {
   padding: 24px 100px;
   background: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
-} */
+}
 
 .features-item-title {
   margin-bottom: 8px;
@@ -277,7 +277,7 @@ body {
 
 /*Чем мы занимаемся*/
 
-/* .work-title {
+.work-title {
   margin-bottom: 72px;
 
   font-weight: 700;
@@ -296,7 +296,7 @@ body {
 .work-item-image {
   max-width: 100%;
   height: auto;
-} */
+}
 
 /*Наша команда*/
 
@@ -316,13 +316,13 @@ body {
 }
 
 .team-list {
-  /* display: flex; */
-  /* gap: 24px; */
+  display: flex;
+  gap: 24px;
 }
 
 .team-item {
-  width: 264px;
-  /* flex-basis: calc((100% - 24px * 3) / 4); */
+  max-width: 264px;
+  flex-basis: calc((100% - 24px * 3) / 4);
   background: var(--white-background-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -407,14 +407,14 @@ body {
   gap: 24px;
 }
 
-/* .customers-logo-item {
+.customers-logo-item {
   width: 168px;
   height: 88px;
   flex-basis: calc((100% - 24px * 5) / 6);
-} */
+}
 
 .customers-logo-link {
-  /* padding: 16px 32px; */
+  padding: 16px 32px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -562,7 +562,7 @@ body {
 }
 
 .footer {
-  /* display: flex; */
+  display: flex;
   align-items: baseline;
 }
 
