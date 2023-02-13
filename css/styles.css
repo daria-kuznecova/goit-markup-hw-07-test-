@@ -61,8 +61,8 @@ body {
   /* width: 1158px; */
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 /*Шапка*/
@@ -71,18 +71,19 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.navigation {
+/* .navigation {
   display: flex;
   align-items: center;
-}
+} */
 
 .main-navigation {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-  margin-right: 76px;
+  /* margin-right: 76px; */
   padding-top: 24px;
   padding-bottom: 24px;
   font-family: "Raleway", sans-serif;
@@ -150,6 +151,20 @@ body {
 
 .navigation-item-link:active {
   color: var(--accent-color);
+}
+
+.mobile-menu-hamburger {
+  display: block;
+  padding: 0;
+}
+
+.mobile-menu-open {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.mobile-menu-hamburger-icon {
+  stroke: #2e2f42;
 }
 
 .address {
