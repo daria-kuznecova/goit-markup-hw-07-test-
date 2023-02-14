@@ -73,6 +73,10 @@
 
   /*Customers*/
 
+  .container.customers {
+    width: 552px;
+  }
+
   .customers-logo-list {
     flex-wrap: wrap;
     row-gap: 72px;
@@ -80,15 +84,18 @@
   }
 
   .customers-logo-item {
-    flex-basis: calc((100% - 24px * 2) / 3);
+    width: calc((100% - 24px * 2) / 3);
   }
 
   /*Подвал*/
 
+  .container.footer {
+    width: 552px;
+  }
+
   .page-footer {
     padding-top: 96px;
     padding-bottom: 96px;
-    padding-left: 93px;
   }
 
   .footer {
