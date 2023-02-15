@@ -68,6 +68,12 @@
     font-weight: 500;
   }
 
+  /*Чем мы занимаеся*/
+
+  .section.work {
+    display: none;
+  }
+
   /*Наша команда*/
 
   .team-list {
@@ -93,7 +99,7 @@
 
   .page-footer {
     padding-top: 96px;
-    padding-bottom: 104px;
+    padding-bottom: 96px;
   }
 
   .footer {
@@ -101,8 +107,12 @@
     align-items: center;
   }
 
-  .footer-block-logo {
+  .footer-block {
     text-align: center;
+  }
+
+  .footer-text {
+    text-align: start;
   }
 
   .footer-block-social {
@@ -127,6 +137,17 @@
 
   .input-email-subscripe {
     width: 398px;
+  }
+
+  /*Модальное окно*/
+
+  .modal {
+    width: 392px;
+    height: 586px;
+  }
+
+  .modal-title {
+    margin-bottom: 16px;
   }
 
   /*Мобильное меню*/

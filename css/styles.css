@@ -54,9 +54,10 @@ body {
   list-style: none;
 }
 
-/* .section {
+.section {
   padding-bottom: 120px;
-} */
+}
+
 .container {
   /* width: 1158px; */
   padding-left: 15px;
@@ -77,9 +78,6 @@ body {
 }
 
 .logo {
-  /* margin-right: 76px; */
-  padding-top: 24px;
-  padding-bottom: 24px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -87,6 +85,12 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: inherit;
+}
+
+.header-logo {
+  margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .logo-web {
@@ -164,7 +168,7 @@ body {
 
 .address-list {
   display: flex;
-  /* gap: 40px; */
+  gap: 40px;
 }
 
 .address-item-link {
@@ -185,16 +189,16 @@ body {
 
 .hero {
   margin: 0 auto;
-  /* padding-top: 188px;
-  padding-bottom: 188px; */
+  padding-top: 188px;
+  padding-bottom: 188px;
   background-color: var(--main-text-bcg-color);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/hero-image.jpg);
-  /* height: 100%; */
-  /* max-width: 1440px; */
+  height: 100%;
+  max-width: 1440px;
   text-align: center;
   color: var(--white-text-color);
 }
@@ -274,7 +278,6 @@ body {
 .features-item-title {
   margin-bottom: 8px;
 
-  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: inherit;
@@ -398,7 +401,7 @@ body {
 /* Customers*/
 
 /* .section.customers {
-  padding-top: 130px;
+  padding-top: 120px;
 } */
 
 .customers-title {
@@ -412,7 +415,7 @@ body {
 
 .customers-logo-list {
   display: flex;
-  /* gap: 24px; */
+  gap: 24px;
 }
 
 .customers-logo-item {
@@ -565,8 +568,8 @@ body {
 
 .page-footer {
   background: var(--main-background-color);
-  /* padding-top: 100px;
-  padding-bottom: 100px; */
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer {
@@ -657,8 +660,6 @@ body {
 .input-email-subscripe {
   display: block;
   padding: 8px 16px;
-
-  align-items: center;
 
   width: 264px;
   height: 40px;

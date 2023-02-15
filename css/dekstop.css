@@ -4,8 +4,41 @@
     margin-right: auto;
     margin-left: auto;
   }
+  /*Хэдер*/
+
+  .page-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
 
   .mobile-menu-hamburger {
     display: none;
+  }
+
+  /*Особенности*/
+
+  .section.features {
+    padding-top: 120px;
+  }
+
+  /*Customers*/
+
+  .section.customers {
+    padding-top: 120px;
+  }
+
+  .features-item:not(:last-child) {
+    margin-right: 24px;
+  }
+
+  /*Подвал*/
+
+  .footer-block {
+    margin-right: 120px;
+  }
+
+  .block-subscribe {
+    margin-left: 80px;
   }
 }

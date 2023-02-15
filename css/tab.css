@@ -10,6 +10,7 @@
     padding-bottom: 96px;
   }
   /*Хэдер*/
+
   .page-navigation {
     display: flex;
     align-items: baseline;
@@ -62,6 +63,12 @@
     line-height: 1.11;
   }
 
+  /*Чем мы занимаеся*/
+
+  .section.work {
+    display: none;
+  }
+
   /*Наша команда*/
 
   .team-list {
@@ -108,5 +115,15 @@
 
   .footer-block-social {
     margin-left: 24px;
+  }
+
+  /*Модальное окно*/
+
+  .modal {
+    height: 586px;
+  }
+
+  .modal-title {
+    margin-bottom: 16px;
   }
 }
