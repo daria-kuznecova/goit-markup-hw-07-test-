@@ -152,10 +152,10 @@ body {
 }
 
 .mobile-menu-open {
-  display: block;
-  border-color: transparent;
+  border: none;
   background-color: transparent;
   padding: 0;
+  line-height: 0;
 }
 
 .mobile-menu-hamburger-icon {
