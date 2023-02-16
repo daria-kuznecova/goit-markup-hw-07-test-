@@ -1,191 +1,285 @@
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  /*хэдер*/
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .container {
-    width: 426px;
-    margin-right: auto;
-    margin-left: auto;
-  }
+/*хэдер*/
 
-  .section {
-    padding-top: 96px;
-    padding-bottom: 96px;
-  }
+.section {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
 
-  .navigation {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
 
-  .navigation-list {
-    display: none;
-  }
+.main-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  .address-list {
-    display: none;
-  }
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: inherit;
+}
 
-  /*герой*/
+.header-logo {
+  margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 
-  .hero {
-    width: 428px;
-    height: auto;
-    padding: 112px 54px;
-  }
+.logo-web {
+  color: var(--accent-color);
+}
 
-  .hero-title {
-    max-width: 320px;
-    margin-bottom: 72px;
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-    font-size: 36px;
-    line-height: 1.11;
-  }
+.navigation-list {
+  display: none;
+}
 
-  /*особенности*/
+.address-list {
+  display: none;
+}
 
-  .features-item-icon {
-    display: none;
-  }
+/*Мobile menu*/
 
-  .features-list {
-    flex-direction: column;
-  }
+.mobile-menu-open {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  line-height: 0;
+}
 
-  .features-item:not(:last-child) {
-    margin-bottom: 72px;
-  }
+.mobile-menu-hamburger-icon {
+  stroke: #2e2f42;
+}
 
-  .features-item-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-  }
+/* .mobile-menu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: bisque;
+}
 
-  .features-item-text {
-    max-width: 396px;
-    font-weight: 500;
-  }
+.mobile-menu-container {
+  position: relative;
+  padding-top: 24px;
+  padding-left: 25px;
+  padding-bottom: 40px;
+}
 
-  /*Чем мы занимаеся*/
+.mobile-menu-close-btn {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 24px;
+  right: 15px;
+  line-height: 0;
 
-  .section.work {
-    display: none;
-  }
+  color: #000000;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  transition: color var(--transition-duration) var(--cubic-bezier),
+    background-color var(--transition-duration) var(--cubic-bezier);
+}
 
-  /*Наша команда*/
+.mobile-navigation {
+  margin-top: 32px;
+  margin-bottom: 284px;
+}
 
-  .team-list {
-    flex-direction: column;
-    align-items: center;
-    gap: 72px;
-  }
+.mobile-navigation-link {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--main-text-bcg-color);
+}
 
-  /* Customers*/
+.mobile-navigation-link.contacts {
+  color: var(--accent-color);
+}
 
-  .customers-logo-list {
-    flex-wrap: wrap;
-    row-gap: 72px;
-    column-gap: 16px;
-  }
+.mobile-navigation-item:not(:last-child) {
+  margin-bottom: 40px;
+}
 
-  .customers-logo-item {
-    width: 190px;
-    flex-basis: calc((100% - 16px) / 2);
-  }
+.mobile-menu-address-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
 
-  /*Футер*/
+.mobile-menu-tel-link {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--accent-color);
+}
 
-  .page-footer {
-    padding-top: 96px;
-    padding-bottom: 96px;
-  }
+.mobile-menu-mail-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--secondary-text-color);
+}
 
-  .footer {
-    flex-direction: column;
-    align-items: center;
-  }
+.mobile-menu-social-list {
+  display: flex;
+  margin-top: 48px;
+  gap: 56px;
+}
 
-  .footer-block {
-    text-align: center;
-  }
+.team-social-link.mobile {
+  padding: 8px;
+} */
 
-  .footer-text {
-    text-align: start;
-  }
+/*герой*/
 
-  .footer-block-social {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 72px;
-  }
+.hero {
+  width: 428px;
+  height: auto;
+  padding: 112px 54px;
+}
 
-  .form-subscripe {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 72px;
-  }
+.hero-title {
+  max-width: 320px;
+  margin-bottom: 72px;
 
-  .row-block-subscribe {
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-  }
+  font-size: 36px;
+  line-height: 1.11;
+}
 
-  .input-email-subscripe {
-    width: 398px;
-  }
+/*особенности*/
 
-  /*Модальное окно*/
+.features-item-icon {
+  display: none;
+}
 
-  .modal {
-    width: 392px;
-    height: 586px;
-  }
+.features-list {
+  flex-direction: column;
+}
 
-  .modal-title {
-    margin-bottom: 16px;
-  }
+.features-item:not(:last-child) {
+  margin-bottom: 72px;
+}
 
-  /*Мобильное меню*/
+.features-item-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+}
 
-  .mobile-menu {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    background-color: bisque;
-  }
+.features-item-text {
+  max-width: 396px;
+  font-weight: 500;
+}
 
-  .mobile-menu-container {
-    position: relative;
-    padding-top: 24px;
-    padding-bottom: 40px;
-    padding-left: 25px;
-  }
+/*Чем мы занимаеся*/
 
-  .mobile-menu-close-btn {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    top: 24px;
-    right: 15px;
-    line-height: 0;
+.section.work {
+  display: none;
+}
 
-    color: #000000;
-    background-color: #e7e9fc;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
-    transition: color var(--transition-duration) var(--cubic-bezier),
-      background-color var(--transition-duration) var(--cubic-bezier);
-  }
+/*Наша команда*/
 
-  /* .mobile-menu {
+.team-list {
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
+}
+
+/* Customers*/
+
+.customers-logo-list {
+  flex-wrap: wrap;
+  row-gap: 72px;
+  column-gap: 16px;
+}
+
+.customers-logo-item {
+  width: 190px;
+  width: calc((100% - 16px) / 2);
+}
+
+/*Футер*/
+
+.page-footer {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.footer {
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-block {
+  text-align: center;
+}
+
+.footer-text {
+  text-align: start;
+}
+
+.footer-block-social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 72px;
+}
+
+.form-subscripe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 72px;
+}
+
+.row-block-subscribe {
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.input-email-subscripe {
+  width: 398px;
+}
+
+/*Модальное окно*/
+
+.modal {
+  width: 392px;
+  height: 586px;
+}
+
+.modal-title {
+  margin-bottom: 16px;
+}
+
+/*Мобильное меню*/
+
+/* .mobile-menu {
     position: fixed;
     top: 0;
     z-index: 1;
@@ -193,4 +287,9 @@
     height: 100%;
     background-color: #fff;
   } */
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 426px;
+  }
 }
